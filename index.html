@@ -4,34 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Portafolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css"> <!-- Enlace al CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&display=swap" rel="stylesheet"> <!-- Nueva fuente de programador -->
 </head>
 <body>
+
     <header>
-        <h1>¡Hola! Soy [Tu Nombre]</h1>
-        <p>Estudiante de Ingeniería de Sistemas | Apasionado por el Desarrollo de Software</p>
+        <h1>PORTAFOLIO</h1>
+        
     </header>
 
-    <section id="proyectos">
-        <h2>Mis Proyectos</h2>
-        <div class="proyecto">
-            <h3>Juego en Docker</h3>
-            <p>Containericé un juego en Docker como parte de un proyecto académico.</p>
-        </div>
-
-        <div class="proyecto">
-            <h3>Página Web Universitaria</h3>
-            <p>Desarrollé una página web como parte de un curso académico.</p>
-        </div>
-
-        <div class="proyecto">
-            <h3>Base de Datos Universitaria</h3>
-            <p>Creé una base de datos para simular la matrícula de un curso universitario.</p>
+    <section class="card-container">
+        <div class="card">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="front.png" alt="Carta Front">
+                </div>
+                <div class="card-back">
+                    <img src="back.png" alt="Carta Back">
+                </div>
+            </div>
         </div>
     </section>
 
-    <footer>
-        <p>Contacto: <a href="mailto:tuemail@gmail.com">tuemail@gmail.com</a></p>
-    </footer>
+    <section class="projects">
+        <div class="project">💻 Proyecto 1</div>
+        <div class="project">📱 Proyecto 2</div>
+        <div class="project">🚀 Proyecto 3</div>
+    </section>
+
+    <script src="script.js"></script> <!-- Enlace al JavaScript -->
 </body>
 </html>
