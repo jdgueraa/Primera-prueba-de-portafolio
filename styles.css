@@ -97,3 +97,21 @@ header {
     transform: translateY(50px);
     transition: opacity 0.6s ease-out, transform 0.6s ease-out;
 }
+
+@media (max-width: 768px) {  /* Para celulares y tablets */
+    .card {
+        width: 180px;  /* Reduce tamaño en pantallas pequeñas */
+        height: 250px;
+        top: 50%; /* Ajusta posición */
+    }
+
+    h1 {
+        font-size: 2rem; /* Reduce tamaño del título */
+        text-align: center;
+    }
+
+    body {
+        background-size: cover; /* Asegura que el fondo se ajuste bien */
+        background-position: center;
+    }
+}
